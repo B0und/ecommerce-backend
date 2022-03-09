@@ -82,6 +82,11 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::interface.interface"
+    },
+    "power_connector": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::power-connector.power-connector"
     }
   }
 }
