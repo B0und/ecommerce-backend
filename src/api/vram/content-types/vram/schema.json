@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vrams",
+  "info": {
+    "singularName": "vram",
+    "pluralName": "vrams",
+    "displayName": "VRAM",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "gb": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "video_chipsets",
+  "info": {
+    "singularName": "video-chipset",
+    "pluralName": "video-chipsets",
+    "displayName": "videoChipset",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    }
+  }
+}

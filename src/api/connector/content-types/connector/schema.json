@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "connectors",
+  "info": {
+    "singularName": "connector",
+    "pluralName": "connectors",
+    "displayName": "Connector"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    }
+  }
+}

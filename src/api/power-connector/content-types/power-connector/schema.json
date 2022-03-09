@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "power_connectors",
+  "info": {
+    "singularName": "power-connector",
+    "pluralName": "power-connectors",
+    "displayName": "powerConnector"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    }
+  }
+}

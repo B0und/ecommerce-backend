@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bus_widths",
+  "info": {
+    "singularName": "bus-width",
+    "pluralName": "bus-widths",
+    "displayName": "busWidth"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bit": {
+      "type": "string"
+    }
+  }
+}

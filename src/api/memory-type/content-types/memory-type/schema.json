@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "memory_types",
+  "info": {
+    "singularName": "memory-type",
+    "pluralName": "memory-types",
+    "displayName": "MemoryType",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

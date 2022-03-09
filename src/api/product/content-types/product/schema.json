@@ -1,0 +1,87 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "displayName": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "video_chipset": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::video-chipset.video-chipset"
+    },
+    "developer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::developer.developer"
+    },
+    "manufacturer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::manufacturer.manufacturer"
+    },
+    "vram": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::vram.vram"
+    },
+    "memory_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::memory-type.memory-type"
+    },
+    "baseClock": {
+      "type": "integer"
+    },
+    "boostClock": {
+      "type": "integer"
+    },
+    "bus_width": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::bus-width.bus-width"
+    },
+    "overclocked": {
+      "type": "boolean",
+      "default": false
+    },
+    "vgaAmount": {
+      "type": "integer",
+      "default": 0
+    },
+    "hdmiAmount": {
+      "type": "integer",
+      "default": 0
+    },
+    "displayPortAmount": {
+      "type": "integer",
+      "default": 0
+    },
+    "dviAmount": {
+      "type": "integer"
+    },
+    "connectors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::connector.connector"
+    },
+    "interface": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::interface.interface"
+    }
+  }
+}
