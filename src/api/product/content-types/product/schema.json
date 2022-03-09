@@ -87,6 +87,9 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::power-connector.power-connector"
+    },
+    "powerSupply": {
+      "type": "integer"
     }
   }
 }
