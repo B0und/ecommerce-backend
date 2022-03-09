@@ -91,5 +91,6 @@
     "powerSupply": {
       "type": "integer"
     }
+    
   }
 }
