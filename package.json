@@ -7,13 +7,14 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "deploy": "git push heroku HEAD:main"
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.1.2",
-    "@strapi/plugin-users-permissions": "4.1.2",
-    "@strapi/strapi": "4.1.2",
+    "@strapi/plugin-i18n": "4.1.3",
+    "@strapi/plugin-users-permissions": "4.1.3",
+    "@strapi/strapi": "4.1.3",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0"
   },
