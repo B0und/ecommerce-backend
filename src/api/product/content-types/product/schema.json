@@ -90,7 +90,11 @@
     },
     "powerSupply": {
       "type": "integer"
+    },
+    "motherboard_interface": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::motherboard-interface.motherboard-interface"
     }
-    
   }
 }
