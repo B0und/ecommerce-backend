@@ -78,11 +78,6 @@
       "relation": "oneToMany",
       "target": "api::connector.connector"
     },
-    "interface": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::interface.interface"
-    },
     "power_connector": {
       "type": "relation",
       "relation": "oneToOne",
