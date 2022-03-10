@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "motherboard_interfaces",
+  "info": {
+    "singularName": "motherboard-interface",
+    "pluralName": "motherboard-interfaces",
+    "displayName": "MotherboardInterface"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    }
+  }
+}
