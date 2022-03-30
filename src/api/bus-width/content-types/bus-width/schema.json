@@ -4,7 +4,8 @@
   "info": {
     "singularName": "bus-width",
     "pluralName": "bus-widths",
-    "displayName": "busWidth"
+    "displayName": "busWidth",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,6 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "bit": {
+      "type": "string"
+    },
+    "name": {
       "type": "string"
     }
   }

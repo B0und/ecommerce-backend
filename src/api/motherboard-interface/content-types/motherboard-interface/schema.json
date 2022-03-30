@@ -4,7 +4,8 @@
   "info": {
     "singularName": "motherboard-interface",
     "pluralName": "motherboard-interfaces",
-    "displayName": "MotherboardInterface"
+    "displayName": "MotherboardInterface",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,6 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "type": {
+      "type": "string"
+    },
+    "name": {
       "type": "string"
     }
   }

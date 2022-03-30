@@ -4,7 +4,8 @@
   "info": {
     "singularName": "power-connector",
     "pluralName": "power-connectors",
-    "displayName": "powerConnector"
+    "displayName": "powerConnector",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,6 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "type": {
+      "type": "string"
+    },
+    "name": {
       "type": "string"
     }
   }
