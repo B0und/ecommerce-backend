@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "gb": {
-      "type": "integer"
-    },
     "name": {
       "type": "string"
     }

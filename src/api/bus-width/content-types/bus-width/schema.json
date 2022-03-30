@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "bit": {
-      "type": "string"
-    },
     "name": {
       "type": "string"
     }
