@@ -39,6 +39,8 @@ async function respond(ctx, next) {
   console.log(
     `API request (${ctx.url}) detected, transforming response json...`
   );
+  console.log(ctx.response.body.data);
+  console.log(flatten(ctx.response.body.data));
   ctx.response.body = {
     data: flatten(ctx.response.body.data),
     meta: ctx.response.body.meta,
