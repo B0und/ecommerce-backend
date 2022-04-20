@@ -7,7 +7,7 @@ module.exports = [
   "strapi::query",
   "strapi::body",
   "strapi::session",
-  "global::flatten-response",
+  // "global::flatten-response",
   "strapi::favicon",
   "strapi::public",
 ];
